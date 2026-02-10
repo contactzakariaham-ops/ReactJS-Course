@@ -4,7 +4,9 @@ import viteLogo from '/vite.svg'
 import './StandardReactCounter.css'
 import Timer from './Timer'
 import CounterTimes2 from './CounterTimes2'
-
+import Tiribrk from './tiribrk'
+import Tiribrkwkhdokhr from './Tiribrkwkhdokhr'
+import yacinechbab from './assets/yacinechbab.png'
 
 
 function StandardReactCounter() {
@@ -15,14 +17,14 @@ function StandardReactCounter() {
   return (
     <>
      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href="https://www.instagram.com/yacine.hmdn?igsh=ZXVscWdramRkZnJx" target="_blank">
+          <img src={yacinechbab} className="logo" alt="Yacine Chbab logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>LKHFIF + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -40,11 +42,8 @@ function StandardReactCounter() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Tiribrk />
+      <Tiribrkwkhdokhr />
     </>
   )
-}
-
-export default StandardReactCounter
+} export default StandardReactCounter
